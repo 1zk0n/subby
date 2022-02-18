@@ -7,7 +7,7 @@ import sys
 domain = sys.argv[1]
 
 
-file = open("/home/Implementation/subby/wordlist.txt","r")
+file = open("wordlist.txt","r")
 content = file.read()
 
 

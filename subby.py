@@ -4,6 +4,14 @@ import dns.resolver
 import sys
 
 
+if len(sys.argv) < 2:
+    print("Error! target not mentioned!")
+    print(" ")
+    print("usage: subby.py <target.com>")
+    print("")
+    exit(0)
+
+
 domain = sys.argv[1]
 
 
